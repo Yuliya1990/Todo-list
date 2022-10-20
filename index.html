@@ -10,18 +10,16 @@
   </head>
   <body>
     <div class="todo-list">
-        <div id="myDIV" class="header">
-            <h2>My To Do List</h2>
-            <div class="inp">
-            <input type="text" id="myInput" placeholder="Title...">
-            <span onclick="newElement()" class="addBtn">Add</span>
+      <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <div class="inp">
+          <input type="text" id="myInput" placeholder="Title..." />
+          <span onclick="newElement()" class="addBtn">Add</span>
+          <span type="button" class="addBtn" onClick="clearAll()">Clear All</span>
         </div>
-          </div>
-          
-          <ul id="myUL" class="task-list" data-lists>
+      </div>
 
-          </ul>
-      </ul>
+      <ul id="myUL" class="task-list" data-lists></ul>
     </div>
   </body>
 </html>
